@@ -1,0 +1,42 @@
+body{
+    background-image: url("paper-background.jpg");
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.addition{
+    background-color: red;
+    color: white;
+}
+
+.subtraction{
+    background-color: blue;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#info{
+    text-align: center;
+    margin: 50px;
+}
+
+#add-row{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#sub-row{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#options{
+    margin: 50px;
+    text-align: center;
+}

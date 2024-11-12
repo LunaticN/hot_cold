@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot or Cold</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="index.js" defer></script>
+    <h1>Hot or Cold</h1>
+
+    <div id="add-row">
+        <button id="add1" class="addition" onclick="editGuess(this)">+1</button>
+        <button id="add5" class="addition" onclick="editGuess(this)">+5</button>
+        <button id="add10" class="addition" onclick="editGuess(this)">+10</button>
+        <button id="add25" class="addition" onclick="editGuess(this)">+25</button>  
+    </div>
+
+    <div id="sub-row">
+        <button id="sub1" class="subtraction" onclick="editGuess(this)">-1</button>
+        <button id="sub5" class="subtraction" onclick="editGuess(this)">-5</button>
+        <button id="sub10" class="subtraction" onclick="editGuess(this)">-10</button>
+        <button id="sub25" class="subtraction" onclick="editGuess(this)">-25</button> 
+    </div>
+
+    <div id="info">
+        <p id="current_guess">Current Guess: 50</p>
+        <p id="previous_guesses">Previous Guesses: </p>
+        <p id="remaining_guesses">Remaining Guesses: 5</p>
+    </div>
+   
+
+    <div id="options">
+        <button id="commit" onclick="commitGuess()">Commit</button>
+        <button id="reset" onclick="resetGame()">Reset</button>
+    </div>
+    
+  </body>
+</html>
